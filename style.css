@@ -1,0 +1,76 @@
+header {
+	padding: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  list-style: none;
+}
+
+nav li {
+	margin: 0 10px;
+  padding: 20px 10px
+  
+}
+
+nav a {
+	font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align:center; 
+  color:#FFFB00;
+}
+
+h2{
+  text-align:center;
+  color:#00FBFF;
+}
+p{
+  font-size:20px;
+}
+
+a:link, a:visited {
+  background-color: #367846;
+  color: #00ff40;
+  padding: 10px;
+
+  border-radius: 5px;
+  
+  text-align: center;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #2b5e37;
+}
+
+  body{
+    background-image: url("https://i.imgur.com/PRd6pqk.png");
+    alt:lightpink;
+    background-repeat: repeat;
+    color:goldenrod;
+    font-size:20px;
+  } 
+
+ 
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 75%;
+}
+marquee{
+  font-weight: bold; 
+  color:magenta; 
+  font-size:15px; 
+  font-family:'serif'; 
+  text-transform:lowercase;
+}
